@@ -1,0 +1,6 @@
+services:
+  miniproject:
+    image: miniproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
